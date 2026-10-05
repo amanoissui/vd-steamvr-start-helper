@@ -1,0 +1,14 @@
+OpenVR SDK
+
+Upstream: https://github.com/ValveSoftware/openvr
+Revision: 0924064316de3effbcd1acf1e309182a2deb1c05
+Reference header: reference/openvr_capi.h
+Source: https://github.com/ValveSoftware/openvr/blob/0924064316de3effbcd1acf1e309182a2deb1c05/headers/openvr_capi.h
+
+The reference header and portions of native_api.py based on OpenVR API
+declarations are covered by the Valve BSD 3-Clause license, reproduced
+in full at reference/OPENVR-LICENSE. Retain that notice when redistributing
+those materials. The project's MIT license does not replace this notice.
+
+SteamVR and Virtual Desktop binaries are not included. The helper loads the
+OpenVR API from the user's separately installed SteamVR runtime.
